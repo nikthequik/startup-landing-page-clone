@@ -41,4 +41,9 @@ div {
 	margin-left: 1em;
 }
 
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
 
