@@ -1,5 +1,6 @@
 body {
     background-color: LightGray;
+    font-size: 100%;
 }
 div {
 	border: 1px solid Chocolate;
@@ -8,10 +9,16 @@ div {
 .content {
 	padding: 0px 15px;
 	box-sizing: border-box;
+
 }
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -20,6 +27,7 @@ div {
 }
 .top-navigation img {
 	height: 70px;
+	width: 26px;
 }
 
 .top-navigation .links {
@@ -29,6 +37,8 @@ div {
 
 .links > li {
 	display: inline-block;
+	padding-top: 0.5em;
+	margin-left: 1em;
 }
 
 
