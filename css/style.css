@@ -1,7 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
     font-size: 100%;
 }
+
 div {
 	border: 1px solid Chocolate;
 }
@@ -11,7 +20,9 @@ div {
 	box-sizing: border-box;
 
 }
+
 /* Navigation Section */
+
 .top-navigation {
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
@@ -20,11 +31,13 @@ div {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
+
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 }
+
 .top-navigation img {
 	height: 70px;
 	width: 26px;
@@ -35,7 +48,6 @@ div {
 	list-style-type: none;
 }
 
-
 .links > li {
 	display: inline-block;
 	padding-top: 0.5em;
@@ -43,13 +55,15 @@ div {
 	cursor: pointer;
 }
 
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
 .links > li:hover {
 	color: black;
 }
 
-.top-navigation .links > .active {
-	color: #4c5058;
-	font-weight: 500;
-}
+
 
 
