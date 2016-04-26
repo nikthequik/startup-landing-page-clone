@@ -23,6 +23,9 @@ body {
 /* Navigation Section */
 
 .top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 	background-color: #fff;
 	font-size: 16px;
 	color: #838994;
@@ -30,7 +33,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.top-navigation > .content {
+.top-navigation .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
@@ -103,4 +106,38 @@ button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.cases .content {
+	text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.devices ul {
+	list-style: none;
+	padding: 0;
+}
+
+.devices ul li {
+	display: inline-block;
+	padding: 0 3rem;
+}
+
+.devices ul li img {
+	width: 6rem;
+	height: 6rem;
+}
+
+.devices ul li h3 {
+	font-weight: 400;
 }
