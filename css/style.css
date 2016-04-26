@@ -5,7 +5,7 @@
 body {
     background-color: LightGray;
     font-size: 100%;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* div {
@@ -15,16 +15,15 @@ body {
 .content {
 	padding: 0px 15px;
 	font-family: 'Roboto', sans-serif;
-	
 	width: 970px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 /* Navigation Section */
 
 .top-navigation {
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -65,7 +64,7 @@ body {
 
 .intro {
     background-image: url('../img/first-background.jpg');
-    background-position: 0 bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
