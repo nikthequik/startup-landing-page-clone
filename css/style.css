@@ -115,6 +115,7 @@ button:hover {
 
 .cases .content {
 	text-align: center;
+	margin-top: 8rem;
 }
 
 .cases h2 {
@@ -140,4 +141,55 @@ button:hover {
 
 .devices ul li h3 {
 	font-weight: 400;
+}
+
+/*Footer Section*/
+
+.social {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.social .content {
+	text-align: center;
+	font-weight: 300;
+}
+
+.social h5 {
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+.social ul {
+	list-style: none;
+	padding: 0;
+}
+
+.social ul li {
+	display: inline-block;
+	padding: .8rem;
+	border-radius: 50%;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+    border: 1px solid LightGray;
+}
+.social .facebook {
+    color: #4c66a4;
+    border: 1px solid LightGray;
+    padding: .8rem 1rem;
+}
+.social .instagram {
+    color: #3f729b;
+    border: 1px solid LightGray;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
