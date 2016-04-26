@@ -64,6 +64,15 @@ body {
 	color: black;
 }
 
+.intro {
+	background-image: url('../img/first-background.jpg');
+	height: 45rem;
+	background-repeat: no-repeat;
+	font-family: Roboto, sans-serif;
+}
 
-
-
+.intro > h1 {
+	text-align: center;
+	color: white;
+	padding-top: 15rem;
+}
